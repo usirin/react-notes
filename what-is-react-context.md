@@ -21,10 +21,10 @@ export const CounterContextManager: React.FC = ({children}) => {
   const [count, setCount] = React.useState(0);
 
   const api = React.useMemo(() => {
-	return {
-	  count,
-	  setCount,
-	};
+    return {
+      count,
+      setCount,
+    };
   }, []);
 
   return (
