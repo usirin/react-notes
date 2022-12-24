@@ -25,7 +25,7 @@ export const CounterContextManager: React.FC = ({children}) => {
       count,
       setCount,
     };
-  }, []);
+  }, [count]);
 
   return (
     <counterContext.Provider value={api}>
