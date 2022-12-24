@@ -5,7 +5,7 @@ A [[react-js]] context is a way for [[react-js]] components to have controlled g
 ```tsx
 import * as React from "react"
 
-interface CountexContextProps {
+interface CounterContextProps {
   count: 0;
   setCount: (newCount: number) => void;
 }
